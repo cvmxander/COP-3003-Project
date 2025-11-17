@@ -12,6 +12,7 @@ SignInScreen::SignInScreen(QWidget* parent)
     , ui(new Ui::SignInScreen)
 {
     ui->setupUi(this);
+    this->showMaximized();
     votingInfo = QSqlDatabase::database();
     if (!votingInfo.open()) this->statusBar()->showMessage("Failed to connect");
     else this->statusBar()->showMessage("Connected"); //ensures database is open and connected in order to properly sign in

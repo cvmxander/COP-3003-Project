@@ -14,6 +14,7 @@ FirstResults::FirstResults(QWidget *parent)
     , ui(new Ui::FirstResults) //manages all widgets in .ui file
 {
     ui->setupUi(this); //connects ui to this class
+    this->showMaximized();
     loadResults(); //loads results as soon as window opens
     QPixmap chickenOrig(":/icons/img/chicken-icon.png");
     QPixmap chicken = chickenOrig.scaled(50, 50, Qt::KeepAspectRatio);

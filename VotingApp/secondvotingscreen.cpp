@@ -12,6 +12,7 @@ SecondVotingScreen::SecondVotingScreen(QWidget* parent)
     , ui(new Ui::SecondVotingScreen)
 {
     ui->setupUi(this);
+    this->showMaximized();
 
     groupFinals = new QButtonGroup(this); //allows only one option to be selected
     groupFinals->addButton(ui->butChicken, 1);

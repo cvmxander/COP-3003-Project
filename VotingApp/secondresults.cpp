@@ -10,6 +10,7 @@ SecondResults::SecondResults(QWidget *parent)
     , ui(new Ui::SecondResults)
 {
     ui->setupUi(this);
+    this->showMaximized();
 }
 
 SecondResults::~SecondResults() {

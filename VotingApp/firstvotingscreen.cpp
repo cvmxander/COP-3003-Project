@@ -12,6 +12,7 @@ FirstVotingScreen::FirstVotingScreen(QWidget* parent)
     , ui(new Ui::FirstVotingScreen)
 {
     ui->setupUi(this);
+    this->showMaximized();
 
     groupChicken = new QButtonGroup(this); //groups buttons so that only one choice can be selected per category
     groupChicken->addButton(ui->butFriedChicken);

@@ -11,6 +11,7 @@ RegisterScreen::RegisterScreen(QWidget* parent)
     , ui(new Ui::RegisterScreen)
 {
     ui->setupUi(this);
+    this->showMaximized();
 }
 
 RegisterScreen::~RegisterScreen() { delete ui; }
