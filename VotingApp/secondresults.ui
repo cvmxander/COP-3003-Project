@@ -197,7 +197,7 @@ QPushButton:hover {
           <property name="minimumSize">
            <size>
             <width>100</width>
-            <height>25</height>
+            <height>0</height>
            </size>
           </property>
           <property name="maximumSize">
@@ -207,8 +207,9 @@ QPushButton:hover {
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">min-height: 25px;
-height: 25px;</string>
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(195, 249, 182);
+}</string>
           </property>
           <property name="value">
            <number>24</number>
@@ -328,6 +329,11 @@ height: 25px;</string>
             <height>25</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(249, 182, 195);
+}</string>
+          </property>
           <property name="value">
            <number>24</number>
           </property>
@@ -355,6 +361,11 @@ height: 25px;</string>
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(182, 195, 249);
+}</string>
           </property>
           <property name="value">
            <number>24</number>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>749</width>
-    <height>546</height>
+    <width>854</width>
+    <height>620</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -53,15 +53,21 @@
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
       <widget class="QLabel" name="label_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="minimumSize">
         <size>
-         <width>300</width>
+         <width>400</width>
          <height>25</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>300</width>
+         <width>400</width>
          <height>25</height>
         </size>
        </property>
@@ -77,14 +83,14 @@
       <widget class="QGroupBox" name="groupBox">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>300</height>
+         <width>400</width>
+         <height>400</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>300</width>
-         <height>300</height>
+         <width>400</width>
+         <height>400</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -100,13 +106,13 @@
            <widget class="QLabel" name="labelFirst">
             <property name="minimumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>0</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>16777215</height>
              </size>
             </property>
@@ -135,13 +141,13 @@ background-color: #252525;
            <widget class="QLabel" name="labelLast">
             <property name="minimumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>0</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>16777215</height>
              </size>
             </property>
@@ -170,13 +176,13 @@ background-color: #252525;
            <widget class="QLabel" name="labelUsername">
             <property name="minimumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>0</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>16777215</height>
              </size>
             </property>
@@ -205,13 +211,13 @@ background-color: #252525;
            <widget class="QLabel" name="labelPassword">
             <property name="minimumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>0</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>16777215</height>
              </size>
             </property>
@@ -240,13 +246,13 @@ background-color: #252525;
            <widget class="QLabel" name="labelConfirm">
             <property name="minimumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>0</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>125</width>
               <height>16777215</height>
              </size>
             </property>
@@ -269,18 +275,39 @@ background-color: #252525;
           </item>
          </layout>
         </item>
-        <item>
+        <item alignment="Qt::AlignmentFlag::AlignHCenter">
          <widget class="QLabel" name="label">
-          <property name="text">
-           <string/>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>25</height>
+           </size>
           </property>
-          <property name="alignment">
-           <set>Qt::AlignmentFlag::AlignCenter</set>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>[+] Status</string>
           </property>
          </widget>
         </item>
-        <item>
+        <item alignment="Qt::AlignmentFlag::AlignHCenter">
          <widget class="QPushButton" name="buttonRegister">
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="styleSheet">
            <string notr="true">QPushButton {
 	color: #f0f0f0;

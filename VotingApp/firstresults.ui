@@ -118,6 +118,11 @@
             <height>25</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(182, 195, 249);
+}</string>
+          </property>
           <property name="value">
            <number>24</number>
           </property>
@@ -156,6 +161,11 @@ QPushButton:hover {
             <height>25</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(182, 195, 249);
+}</string>
+          </property>
           <property name="value">
            <number>24</number>
           </property>
@@ -187,6 +197,11 @@ QPushButton:hover {
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(249, 182, 195);
+}</string>
           </property>
           <property name="value">
            <number>24</number>
@@ -235,6 +250,11 @@ QPushButton:hover {
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(195, 249, 182);
+}</string>
           </property>
           <property name="value">
            <number>24</number>
@@ -373,6 +393,11 @@ QPushButton:hover {
             <height>25</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(249, 182, 195);
+}</string>
+          </property>
           <property name="value">
            <number>24</number>
           </property>
@@ -394,6 +419,11 @@ QPushButton:hover {
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(195, 249, 182);
+}</string>
           </property>
           <property name="value">
            <number>24</number>
@@ -527,6 +557,11 @@ QPushButton:hover {
             <height>25</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(182, 195, 249);
+}</string>
+          </property>
           <property name="value">
            <number>24</number>
           </property>
@@ -549,6 +584,11 @@ QPushButton:hover {
             <height>25</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(249, 182, 195);
+}</string>
+          </property>
           <property name="value">
            <number>24</number>
           </property>
@@ -570,6 +610,11 @@ QPushButton:hover {
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(182, 195, 249);
+}</string>
           </property>
           <property name="value">
            <number>24</number>
@@ -602,6 +647,11 @@ QPushButton:hover {
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(249, 182, 195);
+}</string>
           </property>
           <property name="value">
            <number>24</number>
@@ -654,6 +704,11 @@ QPushButton:hover {
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(195, 249, 182);
+}</string>
           </property>
           <property name="value">
            <number>24</number>
@@ -738,6 +793,11 @@ QPushButton:hover {
             <width>100</width>
             <height>25</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QProgressBar::chunk {
+	background-color: rgb(195, 249, 182);
+}</string>
           </property>
           <property name="value">
            <number>24</number>

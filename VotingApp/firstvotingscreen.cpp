@@ -47,7 +47,14 @@ FirstVotingScreen::~FirstVotingScreen() { delete ui; }
 
 void FirstVotingScreen::receiveData(const QString& username) {
     setCurrentUser(username);
-    ui->labelName->setText("Welcome " + username);
+    QSqlQuery qry;
+    qry.prepare("SELECT FirstName FROM votingInfo WHERE Username = :username");
+    qry.bindValue(":username", username);
+    if (!qry.exec()) qDebug() << "Could not find user: " << qry.lastError().text();
+    if (qry.next()) {
+        QString name = qry.value("FirstName").toString();
+        ui->labelName->setText("Welcome " + name);
+    }
 }
 
 void FirstVotingScreen::insertVote(QString vote[]) {
