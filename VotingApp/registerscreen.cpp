@@ -25,9 +25,14 @@ void RegisterScreen::on_buttonRegister_clicked() {
 
     if (password != confirm) { ui->label->setText("Passwords do not match"); return; } //ensures password matches
 
+    QSqlQuery qry(votingInfo);
+    qry.prepare("SELECT Username FROM votingInfo WHERE Username = :username");
+    qry.bindValue(":username", username);
+    qry.exec();
+    if (qry.next()) { ui->label->setText("Username already exists"); return;}
+
     // Generate unique ID
     int randNum;
-    QSqlQuery qry(votingInfo);
     bool exists;
     do {
         randNum = QRandomGenerator::global()->bounded(1000000);

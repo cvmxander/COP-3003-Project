@@ -85,15 +85,10 @@ void FirstVotingScreen::on_submitButton_clicked() {
 }
 
 void FirstVotingScreen::on_butResults_clicked() {
-    QString username = ui->labelName->text();
-    if (username.startsWith("Welcome ")) {
-        username = username.mid(QString("Welcome ").length());
-    }
-
     FirstResults* results = new FirstResults(nullptr); //opens next window
     connect(this, &FirstVotingScreen::sendDataToResults,
             results, &FirstResults::receiveData); //connects functions
-    emit sendDataToResults(username); //calls connected functions
+    emit sendDataToResults(currentUser); //calls connected functions
     results->show(); //shows next window
     results->loadResults();
     close(); //closes current window
