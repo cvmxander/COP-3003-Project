@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>img/beef-icon.png</file>
+        <file>img/chicken-icon.png</file>
+        <file>img/eye-icon-closed.png</file>
+        <file>img/eye-icon-open.png</file>
+        <file>img/pasta-icon.png</file>
+    </qresource>
+</RCC>

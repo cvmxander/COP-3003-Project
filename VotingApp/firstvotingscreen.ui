@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FirstVotingScreen</class>
+ <widget class="QDialog" name="FirstVotingScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1059</width>
+    <height>731</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(30, 30, 30);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>700</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>700</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #f0f0f0</string>
+       </property>
+       <property name="text">
+        <string>Voting Round 1 - Choose an Entree</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="screenWindow">
+       <property name="minimumSize">
+        <size>
+         <width>700</width>
+         <height>500</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>700</width>
+         <height>500</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(42, 42, 42);</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="2" column="1">
+         <widget class="QLabel" name="labelBeef">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Beef Entrees</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLabel" name="pastaPic">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QLabel" name="labelStatus">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>[+] Status</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QRadioButton" name="butChickenSandwich">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Crispy Chicken Sandwich</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="beefPic">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QRadioButton" name="butTaco">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Beef Tacos</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QRadioButton" name="butMacNCheese">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Macaroni and Cheese</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="chickenPic">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QRadioButton" name="butSteak">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Steak</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QRadioButton" name="butGrilledChicken">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Grilled Chicken</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="labelPasta">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Pasta Entrees</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QRadioButton" name="butChickenParm">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Chicken Parmesan</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QRadioButton" name="butFriedChicken">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Fried Chicken</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="labelChicken">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Chicken Entrees</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QRadioButton" name="butBurger">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Cheeseburgers</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="labelName">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QRadioButton" name="butMeatloaf">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Meatloaf</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QRadioButton" name="butAlfredo">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Fettuccine Alfredo</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QRadioButton" name="butLasagna">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Lasagna</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1">
+         <widget class="QPushButton" name="butResults">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	color: #f0f0f0;
+	background-color: #3a3a3a;
+}
+QPushButton:hover {
+	background-color: 4a4a4a;
+}</string>
+          </property>
+          <property name="text">
+           <string>Results</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QRadioButton" name="butSpaghetti">
+          <property name="styleSheet">
+           <string notr="true">color: #f0f0f0</string>
+          </property>
+          <property name="text">
+           <string>Spaghetti</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QPushButton" name="submitButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	color: #f0f0f0;
+	background-color: #3a3a3a;
+}
+QPushButton:hover {
+	background-color: 4a4a4a;
+}</string>
+          </property>
+          <property name="text">
+           <string>Submit</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1">
+         <widget class="QPushButton" name="buttonExit">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	color: #f0f0f0;
+	background-color: #3a3a3a;
+}
+QPushButton:hover {
+	background-color: 4a4a4a;
+}</string>
+          </property>
+          <property name="text">
+           <string>Exit</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
